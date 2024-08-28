@@ -214,6 +214,29 @@
           transform: rotate(12deg);
         }
       }
+
+      .shiny {
+        color: var(--text-color);
+        background-image: linear-gradient(60deg, var(--text-color) 82%, #7e7e7e 90%, var(--text-color) 98%);
+        background-size: 200% 100%;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all;
+
+        &:hover {
+          animation: shine 3s 1 forwards;
+        }
+      }
+
+      @keyframes shine {
+        from {
+          background-position: 200% 0;
+        }
+
+        to {
+          background-position: 0% 0;
+        }
+      }
     </style>
   </head>
 
@@ -350,7 +373,7 @@
             ><h3>Scoreboard</h3></a
           >
           <p>
-            A little app to keep track of the score at after work game nights
+            An app to keep track of the score at after work game nights.
           </p>
         </li>
         <li>
@@ -366,7 +389,7 @@
           <a href="https://github.com/holistic-developer/shout-it-out-loud"
             ><h3>Shout it out loud!</h3></a
           >
-          <p>Proof that I am a Rockstar developer</p>
+          <p>Proof that I'm a <span class="shiny">Rockstar developer</span>.</p>
         </li>
       </ul>
     </main>

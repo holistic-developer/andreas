@@ -27,6 +27,7 @@
 		:root {
 			--text-color: whitesmoke;
 			--link-color: wheat;
+			--dark-surface: #123b4e;
 			background: linear-gradient(in lch 30deg, #15546d, #204c7d, #1b766e);
 		}
 
@@ -41,6 +42,12 @@
 			display: flex;
 			flex-direction: column;
 			max-width: min(100%, 52rem);
+		}
+
+		*::selection {
+			background-color: var(--dark-surface);
+			color: white;
+			text-shadow: 0 0 5px var(--link-color);
 		}
 
 		main {
@@ -182,7 +189,7 @@
 						height: 2em;
 						width: 2em;
 						border-radius: 100%;
-						background-color: #123b4e;
+						background-color: var(--dark-surface);
 						transition: all 0.1s ease-in-out;
 
 						svg {

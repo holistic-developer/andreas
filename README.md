@@ -1,4 +1,4 @@
-# My personal website
+[# My personal website
 
 I created this as a place to link to all other places were I publish content.
 
@@ -12,4 +12,4 @@ The CSS is written within the same document so there is no second request necess
 
 It uses System fonts to further minimize the page size.
 
-Favicons and `site.webmanifest` were generated with https://realfavicongenerator.net because I can't deal with getting all of the formats right myself.
+It uses a svg icon instead of multiple raster images as favicon and inside the manifest (modern browsers can deal with it).

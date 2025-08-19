@@ -1,4 +1,4 @@
-[# My personal website
+# My personal website
 
 I created this as a place to link to all other places were I publish content.
 

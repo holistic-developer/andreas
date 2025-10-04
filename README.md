@@ -2,7 +2,7 @@
 
 I created this as a place to link to all other places were I publish content.
 
-It page is handcrafted.
+This page is handcrafted.
 
 Since it is not using any framework or build tool there is no build step.
 
